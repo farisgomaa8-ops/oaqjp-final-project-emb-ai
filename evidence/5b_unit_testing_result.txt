@@ -1,0 +1,21 @@
+TRANSCRIPTION OF A VERIFIED LIVE RUN
+This text was transcribed from an authentic screenshot of the cloud terminal.
+It is not a redirected terminal log. The original screenshot is retained locally
+and is not included in the deliverable package.
+
+$ python3 -m unittest test_emotion_detection -v
+test_anger (test_emotion_detection.TestEmotionDetection)
+The lab's angry statement should have anger as its dominant emotion. ... ok
+test_disgust (test_emotion_detection.TestEmotionDetection)
+The lab's disgust statement should have disgust as its dominant emotion. ... ok
+test_fear (test_emotion_detection.TestEmotionDetection)
+The lab's fearful statement should have fear as its dominant emotion. ... ok
+test_joy (test_emotion_detection.TestEmotionDetection)
+The lab's positive statement should have joy as its dominant emotion. ... ok
+test_sadness (test_emotion_detection.TestEmotionDetection)
+The lab's sad statement should have sadness as its dominant emotion. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.594s
+
+OK
