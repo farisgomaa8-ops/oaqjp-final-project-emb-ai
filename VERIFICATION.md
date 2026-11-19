@@ -27,9 +27,12 @@ disgust, sadness, and fear. A clearly labeled transcription of the verified run
 is supplied as `evidence/5b_unit_testing_result.txt`. The authentic terminal
 screenshot is retained locally and excluded from the deliverable package.
 
-The task 2, 3, and 4 output files and `evidence/8b_static_code_analysis.txt` were
-downloaded from the running cloud lab. The latter records the actual 10.00/10
-pylint result. The text files preserve the captured outputs.
+The task 2, 3, and 4 files contain genuine Python 3 interactive sessions
+downloaded from the cloud lab. Only the recording tool's start/end metadata
+and CRLF line formatting were removed; the Python banner, `>>>` imports,
+function calls, return values, and `exit()` remain unchanged. The raw session
+recordings are retained separately. `evidence/8b_static_code_analysis.txt`
+was also downloaded from the lab and records the actual 10.00/10 pylint result. The text files preserve the captured outputs.
 
 ## Browser evidence
 
